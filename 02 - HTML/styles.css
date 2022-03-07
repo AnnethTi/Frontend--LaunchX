@@ -1,0 +1,138 @@
+/* GLOBALES */
+body{
+    margin: 0;
+    background-color: #f9f7dc;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+h1,h2,h3,p,a, :placeholder-shown, label{
+    font-family: 'Fredoka', sans-serif;
+}
+
+a,p{
+    font-weight: 400;
+    font-size: 20px;
+}
+h2,h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+h1{
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.button{
+    text-decoration: none;
+    border: 1px solid #CB997E;
+    padding: 10px;
+    color: black;
+
+
+}
+
+.contenedor{
+    
+    margin: 60px auto;
+    width: 1200px;
+}
+
+/* NAVEGACION */
+
+.nav-contenedor{
+    background-color: #f0efeb;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-contenedor img{
+    width: 10%;
+}
+
+.nav-links{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links a{
+    text-decoration: none;
+}
+
+.home-contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-contenedor{
+    text-align: center;
+}
+
+.pasteles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pastel{
+    width: 30%;
+    margin-bottom: 40px;
+    border: 1px solid black;
+}
+
+.adornos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.adorno{
+    width: 30%;
+    margin-bottom: 40px;
+    border: 1px solid black;
+}
+
+/* AQUI VA EL FORMULARIO QUE NO HAGO TODAVIA JEJEJE */
+.pedido-contenedor{
+    text-align: center;
+}
+
+
+
+
+
+/* contacto */
+.contacto-contenedor{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedores-contacto{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* tablas */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
